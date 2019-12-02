@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Smash from './components/Smash';
+import Smash from './components/smash';
 
 export default {
   name: 'App',

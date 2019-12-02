@@ -2,24 +2,27 @@
   <v-app>
 
     <v-content>
-      <Smash/>
+      <characterGrid :characters="characters"></characterGrid>
     </v-content>
 
   </v-app>
 </template>
 
 <script>
-import Smash from './components/smash';
+import characterGrid from './components/characterGrid';
+import { characters } from './assets/characters';
 
 export default {
   name: 'App',
 
   components: {
-    Smash,
+    characterGrid,
   },
 
-  data: () => ({
-    //
-  }),
+  data: () => {
+    return {
+      characters
+    }
+  },
 };
 </script>

@@ -10,6 +10,7 @@ export const characters = [
     "up_special": "Super Jump Punch",
     "side_special": "Cape",
     "down_special": "F.L.U.D.D",
+    "image": "https://i.imgur.com/U0d0p32.jpg"
     
 },
 {
@@ -23,6 +24,7 @@ export const characters = [
     "up_special": "Spinning kong",
     "side_special": "Headbutt",
     "down_special": "Hand Slap",
+    "image": "https://i.imgur.com/ri3HC06.png"
 },
 {
     "id": "03",
@@ -35,6 +37,7 @@ export const characters = [
     "up_special": "Spin Attack",
     "side_special": "Boomerang",
     "down_special": "Remote Bomb",
+    "image": "https://i.imgur.com/8eJ2uAJ.png"
 },
 {
     "id": "04",
@@ -47,6 +50,7 @@ export const characters = [
     "up_special": "Screw Attack",
     "side_special": "Missle",
     "down_special": "Bomb",
+    "image": "https://i.imgur.com/YKDbcmL.png"
 }, 
 {
     "id": "04e",
@@ -59,6 +63,7 @@ export const characters = [
     "up_special": "Screw Attack",
     "side_special": "Missle",
     "down_special": "Bomb",
+    "image": "https://i.imgur.com/L6pN4Vq.png"
 },    
 {
     "id": "05",
@@ -71,6 +76,8 @@ export const characters = [
     "up_special": "Egg Throw",
     "side_special": "Egg Roll",
     "down_special": "Yoshi Bomb",
+    "image": "https://i.imgur.com/iA82768.png"
+
 },
 {
     "id": "06",
@@ -83,6 +90,7 @@ export const characters = [
     "up_special": "Final Cutter",
     "side_special": "Hammer",
     "down_special": "Stone",
+    "image": "https://i.imgur.com/R6pDmAP.png"
 },    
 {
     "id": "07",
@@ -95,6 +103,7 @@ export const characters = [
     "up_special": "Fire Fox",
     "side_special": "Fox Illusion",
     "down_special": "Reflector",
+    "image": "https://i.imgur.com/DYANKIt.png"
 },    
 {
     "id": "08",
@@ -107,6 +116,7 @@ export const characters = [
     "up_special": "Quick Attack",
     "side_special": "Skull Bash",
     "down_special": "Thunder",
+    "image": "https://i.imgur.com/XGRYd3r.png"
 },    
 {
     "id": "09",
@@ -119,6 +129,7 @@ export const characters = [
     "up_special": "Super Jump Punch",
     "side_special": "Green Missle",
     "down_special": "Luigi Cyclone",
+    "image": "https://i.imgur.com/s6abiL6.png"
 },        
 {
     "id": 10,
@@ -131,6 +142,7 @@ export const characters = [
     "up_special": "PK Thunder",
     "side_special": "PK Fire",
     "down_special": "PSI Magnet",
+    "image": "https://i.imgur.com/h0v3qCr.png"
 },        
 {
     "id": 11,
@@ -143,6 +155,7 @@ export const characters = [
     "up_special": "Falcon Drive",
     "side_special": "Raptor Boost",
     "down_special": "Falcon Kick",
+    "image": "https://i.imgur.com/6FGIJmW.png"
 },
 {
     "id": 12,
@@ -155,6 +168,7 @@ export const characters = [
     "up_special": "Sing",
     "side_special": "Pound",
     "down_special": "Rest",
+    "image": "https://i.imgur.com/h1sIxkj.png"
 },    
 {
     "id": 13,
@@ -167,6 +181,7 @@ export const characters = [
     "up_special": "Peach Parasol",
     "side_special": "Peach Bomber",
     "down_special": "Vegetable",
+    "image": "https://i.imgur.com/wQFP3TC.png"
 },    
 {
     "id": 13,
@@ -179,6 +194,7 @@ export const characters = [
     "up_special": "Daisy Parasol",
     "side_special": "Daisy Bomber",
     "down_special": "Vegetable",
+    "image": "https://i.imgur.com/AUCLk7L.png"
 },    
 {
     "id": 14,
@@ -191,6 +207,7 @@ export const characters = [
     "up_special": "Whirling Fortress",
     "side_special": "Flying Slam",
     "down_special": "Bowser Bomb",
+    "image": "https://i.imgur.com/Ncmp1Oc.png"
 },        
 {
     "id": 15,
@@ -203,6 +220,7 @@ export const characters = [
     "up_special": "Belay",
     "side_special": "Squall Hammer",
     "down_special": "Blizzard",
+    "image": "https://i.imgur.com/9h3ehve.png"
 },        
 {
     "id": 16,
@@ -215,6 +233,7 @@ export const characters = [
     "up_special": "Vanish",
     "side_special": "Burst Grenade",
     "down_special": "Bouncing Fish",
+    "image": "https://i.imgur.com/1VhguZm.png"
 },    
 {
     "id": 17,
@@ -227,6 +246,7 @@ export const characters = [
     "up_special": "Farore's Wind",
     "side_special": "Din's Fire",
     "down_special": "Phantom Slash",
+    "image": "https://i.imgur.com/b6JFxzI.png"
 },        
 {
     "id": 18,
@@ -239,6 +259,7 @@ export const characters = [
     "up special": "Super Jump Punch",
     "side special": "Super Sheet",
     "down_special": "Dr Tornado",
+    "image": "https://i.imgur.com/OYWWJE7.png"
 },        
 {
     "id": 19,
@@ -251,6 +272,7 @@ export const characters = [
     "up_special": "Agility",
     "side_special": "Skull Bash",
     "down_special": "Thunder",
+    "image": "https://i.imgur.com/v8pFd8J.png"
 },       
 {
     "id": 20,
@@ -263,6 +285,7 @@ export const characters = [
     "up_special": "Fire Bird",
     "side_special": "Falco Phantasm",
     "down_special": "Reflector",
+    "image": "https://i.imgur.com/x3vE3Sn.png"
 },            
 {
     "id": 21,
@@ -275,6 +298,7 @@ export const characters = [
     "up_special": "Dolphin Slash",
     "side_special": "Dancing Blade",
     "down_special": "Counter",
+    "image": "https://i.imgur.com/9rFzhzb.png"
 },            
 {
     "id": "21e",
@@ -287,6 +311,7 @@ export const characters = [
     "up_special": "Dolphin Slash",
     "side_special": "Dancing Blade",
     "down_special": "Counter",
+    "image": "https://i.imgur.com/xgPumfp.png"
 },
 {
     "id": 22,
@@ -299,6 +324,7 @@ export const characters = [
     "up_special": "Spin Attack",
     "side_special": "Boomerang",
     "down_special": "Bomb",
+    "image": "https://i.imgur.com/tyvtgrV.png"
 },
 {
     "id": 23,
@@ -311,6 +337,7 @@ export const characters = [
     "up_special": "Dark Dive",
     "side_special": "Flame Choke",
     "down_special": "Wizard's Foot",
+    "image": "https://i.imgur.com/03VO9DD.png"
 },
 {
     "id": 24,
@@ -323,6 +350,7 @@ export const characters = [
     "up_special": "Teleport",
     "side_special": "Confusion",
     "down_special": "Disable",
+    "image": "https://i.imgur.com/JNePneu.png"
 },
 {
     "id": 25,
@@ -335,6 +363,7 @@ export const characters = [
     "up_special": "Blazer",
     "side_special": "Double-Edge Dance",
     "down_special": "Counter",
+    "image": "https://i.imgur.com/fKU3fcz.png"
 },    
 {
     "id": "25e",
@@ -347,6 +376,7 @@ export const characters = [
     "up_special": "Blazer",
     "side_special": "Double-Edge Dance",
     "down_special": "Counter",
+    "image": "https://i.imgur.com/3TaEfAY.png"
 },    
 {
     "id": 26,
@@ -359,6 +389,7 @@ export const characters = [
     "up_special": "Fire",
     "side_special": "Judge",
     "down_special": "Oil Panic",
+    "image": "https://i.imgur.com/Url2bm6.png"
 },
 {
     "id": 27,
@@ -371,6 +402,7 @@ export const characters = [
     "up_special": "Shuttle Loop",
     "side_special": "Drill Rush",
     "down_special": "Dimensional Cape",
+    "image": "https://i.imgur.com/8lthHb1.png"
 },    
 {
     "id": 28,
@@ -383,6 +415,7 @@ export const characters = [
     "up_special": "Power of Flight",
     "side_special": "Uperdash Arm",
     "down_special": "Guardian Orbitars",
+    "image": "https://i.imgur.com/4mTdTF6.png"
 },    
 {
     "id": "28e",
@@ -395,6 +428,7 @@ export const characters = [
     "up_special": "Power of Flight",
     "side_special": "Electroshock Arm",
     "down_special": "Guardian Orbitars",
+    "image": "https://i.imgur.com/a30dWbv.png"
 },    
 {
     "id": 29,
@@ -407,6 +441,7 @@ export const characters = [
     "up_special": "Boost Kick",
     "side_special": "Plasma Whip",
     "down_special": "Flip Jump",
+    "image": "https://i.imgur.com/QbFL7QV.png"
 },
 {
     "id": 30,
@@ -419,6 +454,7 @@ export const characters = [
     "up_special": "Corkscrew",
     "side_special": "Wario Bike",
     "down_special": "Wario Waft",
+    "image": "https://i.imgur.com/z0LQ78D.png"
 },        
 {
     "id": 31,
@@ -431,6 +467,7 @@ export const characters = [
     "up_special": "Cypher",
     "side_special": "Remote Controlled Missle",
     "down_special": "C4",
+    "image": "https://i.imgur.com/gGjDoo9.png"
 },
 {
     "id": 32,
@@ -443,6 +480,7 @@ export const characters = [
     "up_special": "Aether",
     "side_special": "Quick Draw",
     "down_special": "Counter",
+    "image": "https://i.imgur.com/R3CuAxZ.png"
 },    
 {
     "id": 33,
@@ -455,6 +493,7 @@ export const characters = [
     "up_special": "Waterfall",
     "side_special": "Withdraw",
     "down_special": "Pokemon Change",
+    "image": "https://i.imgur.com/819jYoK.png"
 },
 {
     "id": 34,
@@ -689,7 +728,7 @@ export const characters = [
 {
     "id": 53,
     "name": "Mii Fighters (Gunner)",
-    "series": "Super Mario",
+    "series": "Super Smash Bros.",
     "tier": "D",
     "difficulty": "Easy",
     "weight": "104",

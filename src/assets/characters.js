@@ -506,6 +506,7 @@ export const characters = [
     "up_special": "Vine Whip",
     "side_special": "Razor Leaf",
     "down_special": "Pokemon Change",
+    "image": "https://i.imgur.com/6KgveO3.png"
 },
 {
     "id": 35,
@@ -518,6 +519,7 @@ export const characters = [
     "up_special": "Fly",
     "side_special": "Rock Smash",
     "down_special": "Pokemon Change",
+    "image": "https://i.imgur.com/s7kDmim.png"
 },    
 {
     "id": 36,
@@ -530,6 +532,7 @@ export const characters = [
     "up_special": "Rocketbarrel Boost",
     "side_special": "Monkey Flip",
     "down_special": "Bannana Peel",
+    "image": "https://i.imgur.com/AXnyoUC.png"
 
 },    
 {
@@ -543,6 +546,7 @@ export const characters = [
     "up_special": "PK Thunder",
     "side_special": "PK Fire",
     "down_special": "PSI Magnet",
+    "image": "https://i.imgur.com/yZkxuEx.png"
 },        
 {
     "id": 38,
@@ -555,6 +559,7 @@ export const characters = [
     "up_special": "Spring Jump",
     "side_special": "Spin Dash",
     "down_special": "Spin Charge",
+    "image": "https://i.imgur.com/i3jp9jh.png"
 },        
 {
     "id": 39,
@@ -567,6 +572,7 @@ export const characters = [
     "up_special": "Super Dedede Jump",
     "side_special": "Gordo Throw",
     "down_special": "Jet Hammer",
+    "image": "https://i.imgur.com/9HRlEdK.png"
 },    
 {
     "id": 40,
@@ -579,6 +585,7 @@ export const characters = [
     "up_special": "Winged Pikimin",
     "side_special": "Pikmin Throw",
     "down_special": "Pikmin Order",
+    "image": "https://i.imgur.com/vnB8Td5.png"
 },        
 {
     "id": 41,
@@ -591,6 +598,7 @@ export const characters = [
     "up_special": "Extreme Speed",
     "side_special": "Force Palm",
     "down_special": "Double Team",
+    "image": "https://i.imgur.com/tRaf13G.png"
 },        
 {
     "id": 42,
@@ -603,6 +611,7 @@ export const characters = [
     "up_special": "Robo Burner",
     "side_special": "Arm Rotor",
     "down_special": "Gyro",
+    "image": "https://i.imgur.com/ENehrvM.png"
 },       
 {
     "id": 43,
@@ -615,6 +624,7 @@ export const characters = [
     "up special": "Spin Attack",
     "side special": "Boomerang",
     "down_special": "Bomb",
+    "image": "https://i.imgur.com/cjtD5Ms.png"
 },            
 {
     "id": 44,
@@ -627,6 +637,7 @@ export const characters = [
     "up_special": "Fire Wolf",
     "side_special": "Wolf Flash",
     "down_special": "Reflector",
+    "image": "https://i.imgur.com/hD3iZmc.png"
 },            
 {
     "id": 45,
@@ -639,6 +650,7 @@ export const characters = [
     "up_special": "Balloon Trip",
     "side_special": "Lloid Rocket",
     "down_special": "Timber",
+    "image": "https://i.imgur.com/WtDC8jJ.png"
 },
 {
     "id": 46,
@@ -651,6 +663,7 @@ export const characters = [
     "up_special": "Rush Coil",
     "side_special": "Crash Bomber",
     "down_special": "Leaf Shield",
+    "image": "https://i.imgur.com/WNyKh8r.png"
 },
 {
     "id": 47,
@@ -663,6 +676,7 @@ export const characters = [
     "up_special": "Super Hoop",
     "side_special": "Header",
     "down_special": "Deep Breathing",
+    "image": "https://i.imgur.com/DCb2oFO.png"
 },
 {
     "id": 48,
@@ -675,6 +689,7 @@ export const characters = [
     "up_special": "Launch Star",
     "side_special": "Star Bits",
     "down_special": "Gravitational Pull",
+    "image": "https://i.imgur.com/SyfjitZ.png"
 },    
 {
     "id": 49,
@@ -687,6 +702,7 @@ export const characters = [
     "up_special": "Rising Uppercut",
     "side_special": "Jolt Haymaker",
     "down_special": "Slip Counter",
+    "image": "https://i.imgur.com/juJ72vS.png"
 },    
 {
     "id": 50,
@@ -699,6 +715,7 @@ export const characters = [
     "up_special": "Hydro Pump",
     "side_special": "Shadow Sneak",
     "down_special": "Substitute",
+    "image": "https://i.imgur.com/8qFETO8.png"
 },
 {
     "id": 51,
@@ -711,6 +728,7 @@ export const characters = [
     "up_special": "Soaring Axe Kick, Piston Punch, Helicopter Kick",
     "side_special": "Onslaught, Burning Kick, Headache Maker",
     "down_special": "Head-On Assault, Feint Jump, Foot Flurry",
+    "image": ""
 },
    
 {
@@ -748,6 +766,7 @@ export const characters = [
     "up_special": "Warp",
     "side_special": "Explosive Flame",
     "down_special": "Counter",
+    "image": "https://i.imgur.com/9za2YUK.png"
 },        
 {
     "id": 55,
@@ -760,6 +779,7 @@ export const characters = [
     "up_special": "Pac-Jump",
     "side_special": "Power Pellet",
     "down_special": "Fire Hydrant",
+    "image": "https://i.imgur.com/G1prpH4.png"
 },        
 {
     "id": 56,
@@ -772,6 +792,7 @@ export const characters = [
     "up_special": "Elwind",
     "side_special": "Arcfire",
     "down_special": "Nosferatu",
+    "image": "https://i.imgur.com/gMGQtIS.png"
 },
 {
     "id": 57,
@@ -784,6 +805,7 @@ export const characters = [
     "up_special": "Air Slash",
     "side_special": "Back Slash",
     "down_special": "Vision",
+    "image": "https://i.imgur.com/VOrymDy.png"
 },    
 {
     "id": 58,
@@ -796,6 +818,7 @@ export const characters = [
     "up_special": "Abandon Ship",
     "side_special": "Clown Kart Dash",
     "down_special": "Mechakoopa",
+    "image": "https://i.imgur.com/wnxcTtM.png"
 },    
 {
     "id": 59,
@@ -807,7 +830,8 @@ export const characters = [
     "standard_special": "Trick Shot",
     "up_special": "Duck Jump",
     "side_special": "Clay Shooting",
-    "down_special": "",
+    "down_special": "Wild Gunman",
+    "image": "https://i.imgur.com/4VZ8jL8.png"
 },    
 {
     "id": 60,
@@ -820,6 +844,7 @@ export const characters = [
     "up_special": "Shoryuken",
     "side_special": "Tastsumaki Senpukyaku",
     "down_special": "Focus Attack",
+    "image": "https://www.ssbwiki.com/images/thumb/6/61/Ryu_SSBU.png/1200px-Ryu_SSBU.png"
 },        
 {
     "id": "60e",
@@ -832,6 +857,7 @@ export const characters = [
     "up_special": "Shoryuken",
     "side_special": "Tatsumaki Senpukyaku",
     "down_special": "Focus Attack",
+    "image": "https://i.imgur.com/4bHJtL2.png"
 },        
 {
     "id": 61,
@@ -844,6 +870,7 @@ export const characters = [
     "up_special": "Climhazzard",
     "side_special": "Cross Slash",
     "down_special": "Limit Break",
+    "image": "https://i.imgur.com/ENrJmt0.png"
 },    
 {
     "id": 62,
@@ -856,6 +883,7 @@ export const characters = [
     "up_special": "Draconic Ascent",
     "side_special": "Dragon Lunge",
     "down_special": "Counter Surge",
+    "image": "https://i.imgur.com/hTiWfr3.png"
 },        
 {
     "id": 63,
@@ -868,6 +896,7 @@ export const characters = [
     "up_special": "Witch Twist",
     "side_special": "Burner Kick",
     "down_special": "Witch Time",
+    "image": "https://i.imgur.com/YVHKel9.png"
 },        
 {
     "id": 64,
@@ -880,7 +909,8 @@ export const characters = [
     "up_special": "Super Jump",
     "side_special": "Splat Roller",
     "down_special": "Splat Bombs",
-    "special": "Ink Charge"
+    "special": "Ink Charge",
+    "image": "https://i.imgur.com/QskCrfb.png"
 },        
 {
     "id": 65,
@@ -893,6 +923,7 @@ export const characters = [
     "up_special": "Wing Blitz",
     "side_special": "Space Pirate Rush",
     "down_special": "Skewer",
+    "image": "https://i.imgur.com/YcWuLNx.png"
 },            
 {
     "id": 66,
@@ -905,6 +936,7 @@ export const characters = [
     "up_special": "Uppercut",
     "side_special": "Cross",
     "down_special": "Holy Water",
+    "image": "https://i.imgur.com/QJcdDcV.png"
 },            
 {
     "id": "66e",
@@ -917,6 +949,7 @@ export const characters = [
     "up_special": "Uppercut",
     "side_special": "Cross",
     "down_special": "Holy Water",
+    "image": "https://i.imgur.com/sYhDfmp.png"
 },
 {
     "id": 67,
@@ -929,6 +962,7 @@ export const characters = [
     "up_special": "Propellerpack",
     "side_special": "Crownerang",
     "down_special": "Gut Check",
+    "image": "https://i.imgur.com/Voo95kl.png"
 },
 {
     "id": 68,
@@ -941,6 +975,7 @@ export const characters = [
     "up_special": "Ballon Trip",
     "side_special": "Fishing Rod",
     "down_special": "Lloid Trap",
+    "image": "https://i.imgur.com/EUh7Y9n.png"
 },
 {
     "id": 69,
@@ -953,6 +988,7 @@ export const characters = [
     "up_special": "Cross Chop",
     "side_special": "Alolan Whip",
     "down_special": "Revenge",
+    "image": "https://i.imgur.com/j0CVcsw.png"
 },
 {
     "id": 70,
@@ -965,6 +1001,7 @@ export const characters = [
     "up_special": "Piranhacopter",
     "side_special": "Poison Breath",
     "down_special": "Long-Stem Strike",
+    "image": "https://i.imgur.com/kaQj5e4.png"
 },
 {
     "id": 71,
@@ -977,7 +1014,8 @@ export const characters = [
     "up_special": "Grappling Hook",
     "side_special": "Eiha",
     "down_special": "Rebel's Guard",
-    "special": "Rebellion Gauge"
+    "special": "Rebellion Gauge",
+    "image": "https://www.ssbwiki.com/images/thumb/5/5c/Joker_SSBU.png/1200px-Joker_SSBU.png"
 },
 {
     "id": 72,
@@ -990,6 +1028,7 @@ export const characters = [
     "up_special": "Woosh",
     "side_special": "Zap",
     "down_special": "Command Selction",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/dq_hero/main.png"
 },
 {
     "id": 73,
@@ -1002,5 +1041,6 @@ export const characters = [
     "up_special": "Shock Spring Jump",
     "side_special": "Wonderwing",
     "down_special": "Rear Egg",
+    "image": "https://www.ssbwiki.com/images/thumb/9/97/Banjo_%26_Kazooie_SSBU.png/1200px-Banjo_%26_Kazooie_SSBU.png"
 },
 ]

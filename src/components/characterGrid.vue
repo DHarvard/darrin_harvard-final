@@ -1,14 +1,15 @@
 <template>
   <v-container>
     <v-row>
+      <v-col cols="3" v-for="character in characters" :key="character.name">
         <v-expansion-panels focusable dark multiple>
-          <v-col cols="10">
-            <v-expansion-panel v-for="character in characters" :key="character.name">
-              <v-expansion-panel-header :character="character" hide-actions> <h1> {{ character.id }} {{ character.name | allCaps}} </h1> <img class="images" :src="character.image" /></v-expansion-panel-header>
+          <v-expansion-panel>
+              <v-expansion-panel-header :character="character" hide-actions> <h1> {{ character.id }} <br> {{ character.name | allCaps}} </h1> <img class="images" :src="character.image" /></v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <v-row>
-                    <v-col cols="4">
+                    <v-col cols="12">
                       <h2> {{ character.series }} <br><br> </h2>
+                      
                         <div>
                           <h3>Information</h3>
                             <span>Tier: {{ character.tier }}<br></span>
@@ -23,13 +24,13 @@
                             <span>Side Special: {{ character.side_special }} <br> </span> 
                             <span>Down Special: {{ character.down_special }} <br> </span>  
                         </div>
-                          
-                      </v-col>
-                    </v-row>
+                    </v-col>
+                  </v-row>
                 </v-expansion-panel-content>
-            </v-expansion-panel>
-            </v-col>
+                
+          </v-expansion-panel>
         </v-expansion-panels>
+      </v-col>
     </v-row>
   </v-container>
 </template>
@@ -52,8 +53,9 @@ export default {
 
 <style scoped>
   .images {
-    height: 300px;
-    width: 50px;
-    padding-top: 10px;
+    height: 150px;
+    width: 150px;
+    max-height: 150px;
+    max-width: 150px;
   }
 </style>

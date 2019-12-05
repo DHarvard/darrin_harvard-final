@@ -484,7 +484,7 @@ export const characters = [
 },    
 {
     "id": 33,
-    "name": "Pokemon Trainer (Squirtle)",
+    "name": "P. Trainer (Squirtle)",
     "series": "Pokemon",
     "tier": "A",
     "difficulty": "Easy",
@@ -497,7 +497,7 @@ export const characters = [
 },
 {
     "id": 34,
-    "name": "Pokemon Trainer (Ivysaur)",
+    "name": "P. Trainer (Ivysaur)",
     "series": "Pokemon",
     "tier": "A",
     "difficulty": "Intermediate",
@@ -510,7 +510,7 @@ export const characters = [
 },
 {
     "id": 35,
-    "name": "Pokemon Trainer (Charizard)",
+    "name": "P. Trainer (Charizard)",
     "series": "Pokemon",
     "tier": "A",
     "difficulty": "Intermediate",
@@ -728,7 +728,7 @@ export const characters = [
     "up_special": "Soaring Axe Kick, Piston Punch, Helicopter Kick",
     "side_special": "Onslaught, Burning Kick, Headache Maker",
     "down_special": "Head-On Assault, Feint Jump, Foot Flurry",
-    "image": ""
+    "image": "https://www.ssbwiki.com/images/thumb/e/e4/Mii_Brawler_SSBU.png/250px-Mii_Brawler_SSBU.png"
 },
    
 {
@@ -742,6 +742,7 @@ export const characters = [
     "up_special": "Stone Scabbard, Skyward Slash Dash, Hero's Spin",
     "side_special": "Airborne Assault, Slash Launcher, Chakram",
     "down_special": "Blade Counter, Reversal SLash, Power Thrust",
+    "image": "https://www.ssbwiki.com/images/thumb/f/fa/Mii_Swordfighter_SSBU.png/250px-Mii_Swordfighter_SSBU.png"
 },    
 {
     "id": 53,
@@ -754,6 +755,7 @@ export const characters = [
     "up_special": "Lunar Launch, Cannon Uppercut, Arm Rocket",
     "side_special": "Flame Pillar, Stealth Burst, Gunner Missle",
     "down_special": "Echo Reflector, Bomb Drop, Absorbing Vortex",
+    "image": "https://www.ssbwiki.com/images/thumb/e/e5/Mii_Gunner_SSBU.png/250px-Mii_Gunner_SSBU.png"
 },    
 {
     "id": 54,
@@ -1042,5 +1044,19 @@ export const characters = [
     "side_special": "Wonderwing",
     "down_special": "Rear Egg",
     "image": "https://www.ssbwiki.com/images/thumb/9/97/Banjo_%26_Kazooie_SSBU.png/1200px-Banjo_%26_Kazooie_SSBU.png"
+},
+
+{
+    "id": 74,
+    "name": "Terry",
+    "series": "Fatal Fury",
+    "tier": "A",
+    "difficulty": "Very Hard",
+    "weight": "108",
+    "standard_special": "Power Wave",
+    "up_special": "Rising Tackle",
+    "side_special": "Burning Knuckle/Crack Shoot",
+    "down_special": "Triple Wolf",
+    "image": "https://www.ssbwiki.com/images/thumb/f/f5/Terry_SSBU.png/250px-Terry_SSBU.png"
 },
 ]

@@ -1,13 +1,12 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="3" v-for="character in characters" :key="character.name">
+      <v-col xs="12" sm="6" md="6" lg="4" xl="3" v-for="character in characters" :key="character.name">
         <v-expansion-panels focusable dark multiple>
           <v-expansion-panel>
               <v-expansion-panel-header :character="character" hide-actions> <h1> {{ character.id }} <br> {{ character.name | allCaps}} </h1> <img class="images" :src="character.image" /></v-expansion-panel-header>
                 <v-expansion-panel-content>
-                  <v-row>
-                    <v-col cols="12">
+                    
                       <h2> {{ character.series }} <br><br> </h2>
                       
                         <div>
@@ -24,10 +23,8 @@
                             <span>Side Special: {{ character.side_special }} <br> </span> 
                             <span>Down Special: {{ character.down_special }} <br> </span>  
                         </div>
-                    </v-col>
-                  </v-row>
+                    
                 </v-expansion-panel-content>
-                
           </v-expansion-panel>
         </v-expansion-panels>
       </v-col>

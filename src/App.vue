@@ -1,6 +1,6 @@
 <template>
 <div max-width="100px">
-  <v-app id="back">
+  <v-app>
     <v-app-bar dark>
       <v-toolbar-title>
         <projHeader></projHeader>
@@ -11,7 +11,7 @@
     <v-content>
       <v-row class="push">
         <v-col>
-      <characterGrid :characters="characters"></characterGrid>
+          <fighterGrid :fighters="fighters"></fighterGrid>
         </v-col>
       </v-row>
     </v-content>
@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import characterGrid from './components/characterGrid';
-import { characters } from './assets/characters';
+import fighterGrid from './components/fighterGrid';
+import { fighters } from './assets/fighters';
 import header from './components/header';
 import footer from './components/footer';
 
@@ -34,14 +34,14 @@ export default {
   name: 'App',
 
   components: {
-    characterGrid,
+    fighterGrid,
     projHeader: header,
     projFooter: footer
   },
 
   data: () => {
     return {
-      characters
+      fighters
     }
   },
 };
@@ -53,11 +53,6 @@ export default {
     background-position: center top;
   }
   .push {
-    padding-top: 625px;
+    padding-top: 615px;
   }
-
-  #back {
-    background: none;
-    background-color: red;
-}
 </style>

@@ -1,4 +1,4 @@
-export const characters = [
+export const fighters = [
 {
     "id": "01",
     "name": "Mario",

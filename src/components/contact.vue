@@ -85,6 +85,7 @@ export default {
       favChar: null,
       leastFavChar: null,
       message: null,
+      valid: true,
     }),
 
     computed: {

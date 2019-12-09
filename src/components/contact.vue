@@ -56,7 +56,7 @@
                   <v-icon>mdi-refresh</v-icon>
               </v-btn>
               <v-spacer></v-spacer>
-              <v-btn color="primary" text @click="submit(), add()">Submit</v-btn>
+              <v-btn class="mr-4" text @click="storeInfo(), submit()">Submit</v-btn>
           </v-card-actions>
       </v-card>
     </v-col>
@@ -79,12 +79,11 @@ export default {
 
     data: () => ({
       characters: ['Mario', 'Donkey Kong', 'Link', 'Samus', 'Dark Samus', 'Yoshi', 'Kirby', 'Fox', 'Pikachu', 'Luigi', 'Ness', 'Captain Falcon', 'Jigglypuff', 'Peach', 'Daisy', 'Bowser', 'Ice Climbers', 'Sheik', 'Zelda', 'Dr. Mario', 'Pichu', 'Falco', 'Marth', 'Lucina', 'Young Link', 'Ganondorf', 'Mewtwo', 'Roy', 'Chrom', 'Mr. Game & Watch', 'Meta Knight', 'Pit', 'Dark Pit', 'Zero Suit Samus', 'Wario', 'Snake', 'Ike', 'Pokemon Trainer', 'Diddy Kong', 'Lucas', 'Sonic', 'King Dede', 'Olimar', 'Lucario', 'R.O.B.', 'Toon Link', 'Wolf', 'Villager', 'Mega Man', 'Wii Fit Trainer', 'Rosalina & Luma', 'Little Mac', 'Greninja', 'MII Brawler', 'MII Swordfighter', 'MII Gunner', 'Palutena', 'Pac-Man', 'Robin', 'Shulk', 'Bowser Jr.', 'Duck Hunt', 'Ryu', 'Ken', 'Cloud', 'Corrin', 'Bayonetta', 'Inkling', 'Ridley', 'Simon', 'Richter', 'King K. Rool', 'Isabelle', 'Incineroar', 'Piranha Plant', 'Joker', 'Hero', 'Banjo & Kazooie', 'Terry'],
-      errorMessages: '',
       name: '',
       email: '',
       favChar: null,
       leastFavChar: null,
-      message: null,
+      message: '',
     }),
 
     computed: {
@@ -126,6 +125,7 @@ export default {
     methods: {
       submit () {
         this.$v.$touch()
+        this.$router.push({name: 'confirmation'})
       },
       clear () {
         this.$v.$reset()
@@ -135,7 +135,7 @@ export default {
         this.leastFavChar = null
         this.message = null
       },
-      add () {
+      storeInfo () {
         const userInfo = {
           name: this.name,
           email: this.email,
@@ -145,8 +145,6 @@ export default {
         }
         this.$store.state.userInfo.pop()
         this.$store.state.userInfo.push(userInfo)
-        this.$router.push({name: 'confirm'})
-
       },
     },
   }

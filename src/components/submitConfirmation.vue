@@ -2,7 +2,7 @@
     <v-container>
         <v-row>
             <v-col class="text-center">
-                <h1>Thank You for your Submission</h1>
+                <h1>Thank You for your Submission!</h1>
             </v-col>
         </v-row>
 

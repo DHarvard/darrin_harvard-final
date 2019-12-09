@@ -1,7 +1,7 @@
 <template>
     <v-content>
         <v-toolbar dark>
-            <router-link to="/" active-class="active" exact>
+            <router-link to="/" active-class="active">
                 <a href="#">
                     <v-img class="logo" src="../assets/logo.png"> </v-img>
                 </a>
@@ -9,15 +9,15 @@
                 <v-spacer></v-spacer>
             <v-toolbar-items>
 
-                <v-btn to="/" exact text >HOME</v-btn>
+                <v-btn to="/" text >HOME</v-btn>
 
                 <v-divider class="white" vertical></v-divider>
 
-                <v-btn to="/fighters" exact text >FIGHTERS</v-btn>
+                <v-btn to="/fighters" text >FIGHTERS</v-btn>
 
                 <v-divider class="white"  vertical></v-divider>
 
-                <v-btn to="/contact" exact text >CONTACT</v-btn>
+                <v-btn to="/contact" text >CONTACT</v-btn>
             </v-toolbar-items>
         </v-toolbar>
     </v-content>

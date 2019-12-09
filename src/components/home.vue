@@ -2,8 +2,7 @@
     <v-content>
         <v-row>
             <v-col class="pt-0 pb-0">
-                <div class="back">
-                </div>
+                <div class="back"></div>
             </v-col>
         </v-row>
     </v-content>

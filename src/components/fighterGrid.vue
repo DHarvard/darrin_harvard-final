@@ -37,14 +37,12 @@
 
 export default {
   props: ["fighters"],
-  components: {
-    
-  },
+
   filters: {
-        allCaps(value) {
-            return value.toUpperCase();
-        }
-  }
+    allCaps(value) {
+    return value.toUpperCase();
+    },
+  },
 }
 </script>
 

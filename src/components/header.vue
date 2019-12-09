@@ -7,7 +7,7 @@
                 </a>
             </router-link>
                 <v-spacer></v-spacer>
-            <v-toolbar-items class="hidden-sm-and-down">
+            <v-toolbar-items>
 
                 <v-btn to="/" exact text >HOME</v-btn>
 
@@ -34,13 +34,5 @@ export default {
     .logo {
         height: 60px;
         width: 155px;
-    }
-
-    v-btn {
-        height: 100%;
-    }
-
-    v-toolbar__content {
-        padding-right: 0;
     }
 </style>

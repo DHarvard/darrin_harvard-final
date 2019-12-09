@@ -50,7 +50,7 @@
               ></v-textarea>
           </v-card-text>
 
-        <v-divider class="mt-12"></v-divider>
+      <v-divider class="mt-12"></v-divider>
           <v-card-actions>
               <v-btn icon @click="clear">
                   <v-icon>mdi-refresh</v-icon>
@@ -64,8 +64,8 @@
 </template>
 
 <script>
-    import { validationMixin } from 'vuelidate'
-    import { required, maxLength, email } from 'vuelidate/lib/validators'
+import { validationMixin } from 'vuelidate'
+import { required, maxLength, email } from 'vuelidate/lib/validators'
 
 export default {
     mixins: [validationMixin],

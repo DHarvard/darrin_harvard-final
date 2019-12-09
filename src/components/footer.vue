@@ -8,7 +8,7 @@
                 <div>
                 Created using Vuetify
                 </div>
-                <strong> &copy; {{new Date().getFullYear()}} Darrin Harvard </strong>
+                <strong> &copy; 2019 Darrin Harvard </strong>
             </v-card-text>
         </v-row>
     </v-footer>

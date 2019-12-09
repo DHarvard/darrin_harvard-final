@@ -17,9 +17,11 @@ import { fighters } from '../assets/fighters.js';
 
 export default {
     props: [fighters],
+
     components: {
         fighterGrid,
     },
+
     data: () => {
     return {
       fighters

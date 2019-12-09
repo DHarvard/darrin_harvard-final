@@ -3,11 +3,6 @@
         <v-row>
             <v-col class="text-center">
                 <h1>Thank You for your Submission</h1>
-            </v-col>
-        </v-row>
-
-        <v-row>
-            <v-col class="text-center">
                 <p><strong>Name</strong><br>{{ this.$store.state.userInfo[0].name }}</p>
                 <p><strong>Email</strong><br>{{ this.$store.state.userInfo[0].email }}</p>
                 <p><strong>Favorite Character</strong><br>{{ this.$store.state.userInfo[0].favChar }}</p>

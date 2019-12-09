@@ -1,18 +1,15 @@
 <template>
     <v-container>
-        <v-row>
-            <v-col>
-                <v-parallax height="600" src="../assets/banner.png" justify="center" align="center" >
-                    <h1 Class="text-center display-4">FIGHTERS</h1>
-                </v-parallax>
-            </v-col>
-        </v-row>
+        <v-parallax height="600" src="../assets/banner.png" justify="center" align="center" >
+            <h1 Class="text-center display-3">FIGHTERS</h1>
+        </v-parallax>
 
         <v-row>
-            <v-col>
+            <v-col class="pt-0">
                 <fighterGrid :fighters="fighters"></fighterGrid>
             </v-col>
         </v-row>
+        
     </v-container>
 </template>
 

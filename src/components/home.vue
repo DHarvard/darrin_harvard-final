@@ -2,8 +2,8 @@
     <v-content >
         <v-row>
             <v-col class="pt-0 pb-0">
-                <v-parallax height="845" src="../assets/home_banner.jpg">
-                </v-parallax>
+                <div class="back">
+                </div>
             </v-col>
         </v-row>
     </v-content>
@@ -16,5 +16,13 @@ export default {
 </script>
 
 <style scoped>
-    
+    .back {
+  background-image: url("../assets/home_banner.jpg");
+
+  min-height: 845px; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
 </style>

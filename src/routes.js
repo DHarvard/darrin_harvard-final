@@ -7,5 +7,5 @@ export const routes = [
     {path: '', component: home},
     {path: '/fighters', component: fighters},
     {path: '/contact', component: contact},
-    {path: '/confirmation', name: 'confirm', component: submitConfirmation},
+    {path: '/confirmation', name: 'confirmation', component: submitConfirmation},
 ]

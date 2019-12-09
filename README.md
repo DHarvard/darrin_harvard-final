@@ -1,4 +1,4 @@
-# darrin_harvard_final
+# darrin_harvard_DGM3790final
 
 ## Vues.js project using Vuetify
 
@@ -111,4 +111,10 @@ add () {
         this.$store.state.userInfo.push(userInfo)
         this.$router.push({name: 'confirm'})
       },
+...
+export default new Vuex.Store({
+    state: {
+        userInfo: [],
+    }
+})
 ```

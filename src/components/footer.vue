@@ -1,5 +1,5 @@
 <template>
-     <v-container>
+     <v-footer padless dark>
         <v-row>
             <v-card-text class="text-center">
                 <div>
@@ -11,11 +11,13 @@
                 <strong> &copy; {{new Date().getFullYear()}} Darrin Harvard </strong>
             </v-card-text>
         </v-row>
-    </v-container>
+    </v-footer>
 </template>
 
 <script>
-
+export default {
+  data: () => ({})
+};
 </script>
 
 <style>

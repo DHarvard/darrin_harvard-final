@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <v-content>
         <v-toolbar dark>
             <router-link to="/" active-class="active" exact>
                 <a href="#">
@@ -20,8 +20,7 @@
                 <v-btn to="/contact" exact text >CONTACT</v-btn>
             </v-toolbar-items>
         </v-toolbar>
-        
-    </div>
+    </v-content>
 </template>
 
 <script>

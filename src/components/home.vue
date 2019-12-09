@@ -1,5 +1,5 @@
 <template>
-    <v-content >
+    <v-content>
         <v-row>
             <v-col class="pt-0 pb-0">
                 <div class="back">
@@ -17,12 +17,10 @@ export default {
 
 <style scoped>
     .back {
-  background-image: url("../assets/home_banner.jpg");
-
-  min-height: 845px; 
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+        background-image: url("../assets/home_banner.jpg");
+        min-height: 845px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 </style>

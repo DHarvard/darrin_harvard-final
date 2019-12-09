@@ -8,7 +8,6 @@
                 <fighterGrid :fighters="fighters"></fighterGrid>
             </v-col>
         </v-row>
-        
     </v-content>
 </template>
 

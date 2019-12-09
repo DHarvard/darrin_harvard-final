@@ -8,5 +8,4 @@ export const routes = [
     {path: '/fighters', component: fighters},
     {path: '/contact', component: contact},
     {path: '/confirmation', name: 'confirm', component: submitConfirmation},
-
 ]

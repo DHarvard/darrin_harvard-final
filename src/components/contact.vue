@@ -144,10 +144,6 @@ export default {
           leastFavChar: this.leastFavChar,
           message: this.message
         }
-        this.$store.state.userInfo.pop()
-        this.$store.state.userInfo.push(userInfo)
-        this.$router.push({name: 'confirmation'})
-
       },
     },
   }

@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
     .back {
-        background-image: url("../assets/home_banner.jpg");
+        background-image: url("../assets/homeBanner.jpg");
         min-height: 845px;
         background-position: center;
         background-repeat: no-repeat;

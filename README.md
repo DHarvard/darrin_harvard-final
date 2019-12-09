@@ -1,6 +1,6 @@
 # darrin_harvard_DGM3790final
 
-## Vues.js project using Vuetify
+## VueJS / Vuetify project
 
 ### Netlify Link
 ```

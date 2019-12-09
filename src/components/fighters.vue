@@ -1,15 +1,15 @@
 <template>
-    <v-container class="pt-0">
+    <v-content class="pt-0">
         <v-row>
             <v-col class="pt-0">
-                <v-parallax height="600" src="../assets/banner.png" justify="center" align="center">
+                <v-parallax height="600" src="../assets/banner.png">
                     <h1 Class="text-center display-3">FIGHTERS</h1>
                 </v-parallax>
                 <fighterGrid :fighters="fighters"></fighterGrid>
             </v-col>
         </v-row>
         
-    </v-container>
+    </v-content>
 </template>
 
 <script>

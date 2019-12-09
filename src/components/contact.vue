@@ -24,23 +24,23 @@
               ></v-text-field>
             
               <v-select
-                v-model="selectOne"
+                v-model="favChar"
                 :items="characters"
-                :error-messages="selectOneErrors"
+                :error-messages="favCharErrors"
                 label="Favorite Character"
                 required
-                @change="$v.selectOne.$touch()"
-                @blur="$v.selectOne.$touch()"
+                @change="$v.favChar.$touch()"
+                @blur="$v.favChar.$touch()"
               ></v-select>
 
               <v-select
-                v-model="selectTwo"
+                v-model="leastFavChar"
                 :items="characters"
-                :error-messages="selectTwoErrors"
+                :error-messages="leastFavCharErrors"
                 label="Least Favorite Character"
                 required
-                @change="$v.selectTwo.$touch()"
-                @blur="$v.selectTwo.$touch()"
+                @change="$v.leastFavChar.$touch()"
+                @blur="$v.leastFavChar.$touch()"
               ></v-select>
 
               <v-textarea
@@ -56,7 +56,7 @@
                   <v-icon>mdi-refresh</v-icon>
               </v-btn>
               <v-spacer></v-spacer>
-              <v-btn color="primary" text @click="submit">Submit</v-btn>
+              <v-btn color="primary" text @click="submit(), add()">Submit</v-btn>
           </v-card-actions>
       </v-card>
     </v-col>
@@ -73,8 +73,8 @@ export default {
     validations: {
       name: { required, maxLength: maxLength(25) },
       email: { required, email, maxLength: maxLength(25)},
-      selectOne: { required },
-      selectTwo: { required },
+      favChar: { required },
+      leastFavChar: { required },
     },
 
     data: () => ({
@@ -82,22 +82,22 @@ export default {
       errorMessages: '',
       name: '',
       email: '',
-      selectOne: null,
-      selectTwo: null,
+      favChar: null,
+      leastFavChar: null,
       message: null,
     }),
 
     computed: {
-      selectOneErrors () {
+      favCharErrors () {
         const errors = []
-        if (!this.$v.selectOne.$dirty) return errors
-        !this.$v.selectOne.required && errors.push('Item is required')
+        if (!this.$v.favChar.$dirty) return errors
+        !this.$v.favChar.required && errors.push('Item is required')
         return errors
       },
-      selectTwoErrors () {
+      leastFavCharErrors () {
         const errors = []
-        if (!this.$v.selectTwo.$dirty) return errors
-        !this.$v.selectTwo.required && errors.push('Item is required')
+        if (!this.$v.leastFavChar.$dirty) return errors
+        !this.$v.leastFavChar.required && errors.push('Item is required')
         return errors
       },
       nameErrors () {
@@ -131,11 +131,23 @@ export default {
         this.$v.$reset()
         this.name = ''
         this.email = ''
-        this.selectOne = null
-        this.selectTwo = null
+        this.favChar = null
+        this.leastFavChar = null
         this.message = null
       },
-      
+      add () {
+        const userInfo = {
+          name: this.name,
+          email: this.email,
+          favChar: this.favChar,
+          leastFavChar: this.leastFavChar,
+          message: this.message
+        }
+        this.$store.state.userInfo.pop()
+        this.$store.state.userInfo.push(userInfo)
+        this.$router.push({name: 'confirm'})
+
+      },
     },
   }
 </script>

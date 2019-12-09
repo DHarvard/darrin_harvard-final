@@ -126,13 +126,6 @@ export default {
     methods: {
       submit () {
         this.$v.$touch()
-        if (this.$v.$invalid) {
-        this.submitStatus = 'ERROR'
-      } else {
-        this.submitStatus = 'PENDING'
-        setTimeout(() => {
-          this.submitStatus = 'OK'
-        }, 500)
       },
       clear () {
         this.$v.$reset()

@@ -56,7 +56,7 @@
                   <v-icon>mdi-refresh</v-icon>
               </v-btn>
               <v-spacer></v-spacer>
-              <v-btn color="primary" text @click="submit(), add()">Submit</v-btn>
+              <v-btn color="primary" text @click="submit(), storeInfo()">Submit</v-btn>
           </v-card-actions>
       </v-card>
     </v-col>
@@ -135,7 +135,7 @@ export default {
         this.leastFavChar = null
         this.message = null
       },
-      add () {
+      storeInfo () {
         const userInfo = {
           name: this.name,
           email: this.email,
@@ -145,7 +145,7 @@ export default {
         }
         this.$store.state.userInfo.pop()
         this.$store.state.userInfo.push(userInfo)
-        this.$router.push({name: 'confirm'})
+        this.$router.push({name: 'confirmation'})
 
       },
     },

@@ -56,7 +56,7 @@
                   <v-icon>mdi-refresh</v-icon>
               </v-btn>
               <v-spacer></v-spacer>
-              <v-btn color="primary" text @click="submit(), storeInfo()" required >Submit</v-btn>
+              <v-btn color="primary" text @click="submit(), storeInfo()" :disabled="!valid" >Submit</v-btn>
           </v-card-actions>
       </v-card>
     </v-col>
